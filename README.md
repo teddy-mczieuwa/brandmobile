@@ -1,4 +1,4 @@
-# client
+# To use this locally, perform the following
 
 ## Project setup
 ```
@@ -9,11 +9,10 @@ yarn install
 ```
 yarn serve
 ```
+visit ```localhost:8080```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Assumptions made
+I did not find a password field in the api provided so I assumed that the token was the password
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
